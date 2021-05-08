@@ -1,1 +1,38 @@
-// TODO
+.banner {
+  width: 100%;
+  height: 400px;
+
+  img {
+    width: 100%; /* or any custom size */
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+.postTitle {
+
+  display: block;
+  margin-top: 3rem;
+  font-size: 2rem;
+  font-weight: bold;
+  line-height: 3rem;
+  color: var(--heading);
+
+}
+
+.postContent {
+  text-align: justify;
+
+  h1 {
+    margin: 2rem 0;
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: var(--heading);
+  }
+
+  div {
+    line-height: 2rem;
+    font-size: 1.125rem;
+    color: var(--text-body);
+  }
+}

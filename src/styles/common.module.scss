@@ -1,1 +1,26 @@
 // TODO
+.mainContainer {
+  margin: 0 auto;
+  max-width: 720px;
+}
+
+.info {
+
+  margin-top: 1.5rem;
+  display: flex;
+  align-items: center;
+  color: var(--text-info);
+
+  span {
+    display: flex;
+    align-items: center;
+    margin-right: 1.5rem;
+
+    svg {
+      margin-right: 0.5rem;
+    }
+
+  }
+
+
+}
